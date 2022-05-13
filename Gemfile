@@ -12,15 +12,26 @@ gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
-gem 'webpacker', '~> 4.0'
+# gem 'webpacker', '~> 4.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '~> 5'
+# gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+
+gem 'jquery-rails'
+gem 'turbolinks', '~> 5'
+gem 'jbuilder', '~> 2.5'
+gem 'delayed_job'
+gem 'rails-assets-jquery', :source => 'https://rails-assets.org/'
+gem "bootstrap-sass", ">= 3.4.1"
+gem 'toastr-rails', '~> 1.0'
+gem 'fullcalendar-rails', '~> 3.4.0'
+gem 'momentjs-rails', '~> 2.17.1'
+gem "chartkick", ">= 3.2.0"
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
@@ -63,3 +74,5 @@ end
 gem "stimulus_reflex", "~> 3.3.0.pre2"
 
 gem "optimism", "~> 0.3.5"
+
+gem "jsbundling-rails", "~> 1.0"
